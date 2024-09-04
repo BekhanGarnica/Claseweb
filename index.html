@@ -3,31 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida - Página 1</title>
+    <title>Hoja de Vida - Bekhan Santiago Garnica Suarez</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
-    <header>
-        <h1>Bekhan Santiago Garnica Suarez</h1>
-        <p>Estudiante de Ingeniería de Sistemas</p>
-        <nav>
-            <a href="pagina2.html">Habilidades y Experiencia</a> |
-        
-            <a href="pagina3.html">Referencias</a>
-        </nav>
-    </header>
+    <div class="container mt-5">
+        <!-- Header -->
+        <header class="text-center mb-4">
+            <h1 class="display-4">Bekhan Santiago Garnica Suarez</h1>
+            <p class="lead">Estudiante de Ingeniería de Sistemas</p>
+            <nav class="nav justify-content-center">
+                <a class="nav-link active" href="pagina2.html">Habilidades y Experiencia</a>
+                <a class="nav-link" href="pagina3.html">Referencias</a>
+            </nav>
+        </header>
 
-    <section>
-        <img src="BS.png"  width="150" height="150" align="right"/>
-        <h2>Información de Contacto</h2>
-        <p>Email: <a href="mailto:santiagosuarez1802@gmail.com">santiagosuarez1802@gmail.com</a></p>
-        <p>Teléfono: +57 3132812742</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/bekan-santiago-garnica-suarez-b3a9b5308">https://www.linkedin.com/in/bekan-santiago-garnica-suarez-b3a9b5308</a></p>
-    </section>
+        <!-- Información de Contacto -->
+        <section class="mb-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Información de Contacto</h2>
+                    <p><strong>Email:</strong> <a href="mailto:santiagosuarez1802@gmail.com">santiagosuarez1802@gmail.com</a></p>
+                    <p><strong>Teléfono:</strong> +57 3132812742</p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bekan-santiago-garnica-suarez-b3a9b5308">Mi perfil en LinkedIn</a></p>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img src="BS.png" class="img-fluid rounded-circle" alt="Foto de Bekhan Santiago Garnica Suarez" width="150" height="150"/>
+                </div>
+            </div>
+        </section>
 
-    <section>
-        <h2>Perfil Profesional</h2>
-        <p>Soy un estudiante de ingeniería de sistemas enfocado en la eficiencia y la creatividad, con un fuerte interés en la implementación de soluciones tecnológicas innovadoras. Estoy en la búsqueda de oportunidades laborales para aplicar mis habilidades y seguir creciendo profesionalmente.</p>
-    </section>
+        <!-- Perfil Profesional -->
+        <section>
+            <h2>Perfil Profesional</h2>
+            <p>Soy un estudiante de ingeniería de sistemas con un fuerte enfoque en la eficiencia y creatividad. Estoy apasionado por la implementación de soluciones tecnológicas innovadoras y estoy buscando oportunidades laborales para aplicar mis habilidades y continuar creciendo profesionalmente.</p>
+        </section>
+    </div>
+
+    <footer class="text-center mt-5 mb-3">
+        <p>&copy; 2024 Bekhan Santiago Garnica Suarez - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
